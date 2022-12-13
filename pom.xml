@@ -4,6 +4,7 @@
     <modules>
         <module>nacos-register</module>
         <module>nacos-discovery</module>
+        <module>nacos-config</module>
     </modules>
 
     <parent>

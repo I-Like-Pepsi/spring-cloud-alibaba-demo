@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.11:8848,192.168.1.11:8850,192.168.1.11:8852
+        username: nacos
+        password: nacos
+        file-extension: yaml
+        extension-configs:
+          - data-id: nacos-config-extension-configs-1.yaml
+        shared-configs:
+          - data-id: nacos-config-shared-configs-1.yaml
+  profiles:
+    active: dev

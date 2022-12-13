@@ -1,0 +1,9 @@
+server:
+  port: 9002
+
+student:
+  name: tom
+  age: 18
+  class-no: c2
+  class-name: 二班
+  ext-pro: 扩展
