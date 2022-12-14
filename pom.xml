@@ -5,6 +5,7 @@
         <module>nacos-register</module>
         <module>nacos-discovery</module>
         <module>nacos-config</module>
+        <module>nacos-loadbalancer</module>
     </modules>
 
     <parent>

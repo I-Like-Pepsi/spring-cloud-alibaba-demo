@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-loadbalancer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.11:8848,192.168.1.11:8850,192.168.1.11:8852
+        username: nacos
+        password: nacos
